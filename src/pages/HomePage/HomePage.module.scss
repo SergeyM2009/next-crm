@@ -1,0 +1,134 @@
+@import "./../../assets/sass/mixins.scss";
+// .wrapper {
+//     background: $blue;
+//     width: 100%;
+//     height: 100%;
+//     // padding: 24px;
+// }
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.white__plate {
+  background-color: #fff;
+    border-radius: 16px;
+	margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-shadow: 0 10px 62px 10px #2f80d6b5;
+    max-width: 400px;
+    padding-bottom: 25px;
+     @include mobile370() {
+      padding-left: 5px;
+      padding-right: 5px;
+     }
+}
+.container__fluid{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+}
+.white__plate__header {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.white__plate__logo {
+	font-weight: 800;
+	font-size: clamp(1.25rem, 0.932rem + 1.59vw, 2.125rem);
+	color: #2789e6;
+	transition: 0.2s ease-in;
+	margin: 0;
+ 
+}
+.white__plate__logo span {
+	color: #2b2b2b;
+}
+
+.white__plate__line__between {
+	background-color: #2d93f0;
+	height: 60px;
+	margin-left: -55px;
+	margin-right: -55px;
+	margin-bottom: 40px;
+}
+.white__plate__line__between__main {
+	background-color: #2d93f0;
+	height: 45px;
+	margin-bottom: 30px;
+}
+
+.form__group {
+	margin-bottom: 1rem;
+}
+.form__control {
+	  background-clip: padding-box;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    color: #495057;
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    height: calc(1.5em + .75rem + 2px);
+    line-height: 1.5;
+    padding: .375rem .75rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    width: 100%;
+}
+.submitbtn
+{
+	border-radius: .3rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    padding: .5rem 1rem;
+	background-color: #007bff;
+    color: #fff;
+	border: 1px solid #007bff;
+	font-weight: 400;
+	transition: all .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+	user-select: none;
+    vertical-align: middle;
+	  &:hover {
+      opacity: 0.8;
+    }
+}
+
+
+.text__center {
+	text-align: center;
+}
+.text__left {
+	text-align: left;
+}
+.text__right {
+	text-align: right;
+}
+.text__justify {
+	text-align: justify;
+}
+/* Font weight */
+.light {
+	font-weight: 300;
+}
+.normal {
+	font-weight: 400;
+}
+.strong {
+	font-weight: 700;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 25px;
+}
+.bodyblue {
+  background: $blue;
+}

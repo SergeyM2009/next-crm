@@ -1,0 +1,114 @@
+@mixin mobile392() {
+    @media (max-width: 393px) {
+        @content;
+    } 
+}
+@mixin mobile370() {
+    @media (max-width: 370px) {
+        @content;
+    } 
+}
+@mixin mobile350() {
+    @media (max-width: 350px) {
+        @content;
+    } 
+}
+                            @mixin mobile425() {
+                                @media (max-width: 426px) {
+                                    @content;
+                                } 
+                            }
+                            @mixin mobile473() {
+                                @media (max-width: 473px) {
+                                    @content;
+                                } 
+                            }
+                            @mixin mobile464() {
+                                @media (max-width: 464px) {
+                                    @content;
+                                } 
+                            }
+
+                            @mixin mediaTablet580() {
+                                @media (max-width: 580px) {
+                                    @content;
+                                } 
+                            }
+                            @mixin mediaTablet620() {
+                                @media (max-width: 620px) {
+                                    @content;
+                                } 
+                            }
+                            @mixin mediaTablet505() {
+                                @media (max-width: 505px) {
+                                    @content;
+                                } 
+                            }
+                            @mixin mediaTablet490() {
+                                @media (max-width: 490px) {
+                                    @content;
+                                } 
+                            }
+                            @mixin mediaTablet768() {
+                                @media (min-width: 769px) {
+                                    @content;
+                                } 
+        }
+                            @mixin mediaTablet520() {
+                                @media (max-width: 520px) {
+                                    @content;
+                                } 
+        }
+                            @mixin Interval() {
+                                @media (min-width: 505px) and (max-width: 768px) {
+                                    @content;
+                                } 
+        }
+@mixin Laptop1024 () {
+    @media (max-width: 1025px) {
+        @content;
+    } 
+}
+                            @mixin mediaLaptop992 () {
+                                @media (max-width: 992px) {
+                                    @content;
+                                }
+                            }
+                            @mixin mediaLaptop940 () {
+                                @media (max-width: 940px) {
+                                    @content;
+                                }
+                            }
+                            @mixin mediaLaptop800 () {
+                                @media (max-width: 800px) {
+                                    @content;
+                                }
+                            }
+
+@mixin mediaLaptop1200 () {
+	@media (max-width: 1200px) {
+        @content;
+    }
+}
+@mixin mediaLaptop1300 () {
+	@media (max-width: 1300px) {
+        @content;
+    }
+}
+@mixin Laptop1400 () {
+	@media (min-width: 1400px) {
+        @content;
+    }
+}
+@mixin isMobile1050 () {
+	@media (max-width: 1050px) {
+        @content;
+    }
+}
+
+// :root {
+//     --blue: #0d11e2;
+//     --grey: #f5f5f585;
+//   }
+$blue:radial-gradient(circle, #8dd5ff 0, #268ff8 100%);
+$grey:#f5f5f585;
