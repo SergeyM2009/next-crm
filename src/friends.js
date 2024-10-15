@@ -27,8 +27,8 @@ const  makeDate = ()=> {
 const  makeTime = ()=>  currentTimeMoscow = new Date().toLocaleString('ru-RU', { timeZone: 'Europe/Moscow' });
 
 // const serverAdress = "https://grizzly-boiled-broccoli.glitch.me/posts";
-const serverAdress = "https://market.teplo-best.ru/posts";
-// const serverAdress = "http://localhost:5000/posts";
+// const serverAdress = "https://market.teplo-best.ru/posts";
+const serverAdress = "http://localhost:5000/posts";
 
 
 export {renderPriduct, renderState,badgeColor, makeDate, makeTime,currentDate,currentTimeMoscow, serverAdress}
