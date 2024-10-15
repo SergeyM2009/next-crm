@@ -29,7 +29,7 @@ const  makeTime = ()=>  currentTimeMoscow = new Date().toLocaleString('ru-RU', {
 // const serverAdress = "https://grizzly-boiled-broccoli.glitch.me/posts";
 // const serverAdress = "https://market.teplo-best.ru/posts";
 // const serverAdress = "http://localhost:5000/posts";
-const serverAddress = "https://raw.githubusercontent.com/SergeyM2009/next-crm/master/db.json/posts";
+const serverAddress = "https://github.com/SergeyM2009/next-crm/blob/master/db.json/posts";
 
 
 export {renderPriduct, renderState,badgeColor, makeDate, makeTime,currentDate,currentTimeMoscow, serverAdress}
