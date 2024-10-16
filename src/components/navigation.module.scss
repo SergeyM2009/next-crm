@@ -16,13 +16,11 @@
 
 .project__nav__links__wrapper{
     display: flex;
-      //  flex-wrap: wrap;
     justify-content: flex-start;
     column-gap: 60px;
     row-gap: 15px;
       @include mediaTablet580() {
         flex-direction: column;
-        align-items: flex-end;
       }
 }
 .links {

@@ -32,7 +32,6 @@ const TablePage = () => {
 	 function panelControl() {
 		const element = ref.current; 
  	if (element) { 
-		console.log(element);
         element.className = classes.overLeftPanel;
 		setBlur(true)
 	}	

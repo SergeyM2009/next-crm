@@ -167,7 +167,7 @@ margin-left: 60px;
 		position: absolute;
 		left: 0;
 		top:0;
-		width: 100%;
+		width: 100vh;
 		height: 100%;
 		background-color: black;
 		filter: blur(1px);
@@ -181,7 +181,7 @@ margin-left: 60px;
       margin-right: auto;
     }
 .container__fluid {
-  margin-left: auto;
+    margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -274,7 +274,7 @@ margin-left: 60px;
   transition: background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 .table {
-    color: #212529;
+  color: #212529;
 	margin-bottom: 1rem;
 	min-width: 880px;
 	width: 100%;
@@ -290,6 +290,7 @@ margin-left: 60px;
 }
 .filterbtn {
 	position: fixed;
+	z-index: 1;
 	left: 0;
 	top: 0;
 	transform: rotate(270deg);
