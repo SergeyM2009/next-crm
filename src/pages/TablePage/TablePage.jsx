@@ -96,7 +96,7 @@ useEffect (() => {
 <div className={`${classes.total} ${isMediaQuery  && classes.total__small}`} style={{marginTop:height + 25}}>
 
 <LeftPanel ref={ref}/>
-{handleLeftPanel && <button onClick={() => panelControl()} className= {classes.filterbtn}>Фильтр</button>}
+{handleLeftPanel && <button onClick={() => panelControl()} className= {classes.filterbtn} style={{marginTop:height + 110}} >Фильтр</button>}
 
 		  {/* // Таблица  */}
 		<RightPanel />

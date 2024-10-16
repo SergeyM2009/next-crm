@@ -274,13 +274,13 @@ margin-left: 60px;
   transition: background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 .table {
-  color: #212529;
-    margin-bottom: 1rem;
+    color: #212529;
+	margin-bottom: 1rem;
 	min-width: 880px;
-    width: 100%;
-    border-collapse: collapse;
-    height: auto;
-    overflow-y: scroll;
+	width: 100%;
+	border-collapse: collapse;
+	height: auto;
+	min-width: 1100px;  
 }
 .tabletitle {
 	border-bottom: 2px #cecece69 solid;
@@ -291,7 +291,7 @@ margin-left: 60px;
 .filterbtn {
 	position: fixed;
 	left: 0;
-	top: 40%;
+	top: 0;
 	transform: rotate(270deg);
 	background: #094071;
     padding: 4px 10px 9px 10px;
