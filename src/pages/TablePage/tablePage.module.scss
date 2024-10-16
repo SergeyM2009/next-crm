@@ -162,13 +162,12 @@ margin-left: 60px;
 	padding-bottom: 20px;
 	filter: blur(2px);
 
-
 	&::after {
 		content: " ";
 		position: absolute;
 		left: 0;
 		top:0;
-		width: 1000vh;
+		width: 130%;
 		height: 100%;
 		background-color: black;
 		filter: blur(1px);
