@@ -162,19 +162,20 @@ margin-left: 60px;
 	padding-bottom: 20px;
 	filter: blur(2px);
 
+
 	&::after {
 		content: " ";
 		position: absolute;
 		left: 0;
 		top:0;
-		width: 100vh;
+		width: 1000vh;
 		height: 100%;
 		background-color: black;
 		filter: blur(1px);
 		opacity: 0.3;
 }
-	
-}
+}	
+
     .form__wrapper {
       max-width: 1200px;
       margin-left: auto;
@@ -332,7 +333,7 @@ margin-left: 60px;
 		position: absolute;
 		left: -50px;
 		top: 0;
-		z-index: 1;
+		z-index: 2;
 		background-color: #094071;	
 	}
 	
