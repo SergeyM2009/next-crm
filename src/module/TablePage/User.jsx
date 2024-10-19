@@ -4,7 +4,9 @@ import { AppContext } from '@/src/pages/TablePage/TablePage';
 import {useContext } from 'react';
 const User = () => {
     const {posts} = useContext(AppContext);
-    return ( 	<table className={classes.table}>
+    return ( 	
+    <div className = {classes.tableWrapper}>
+    <table className={classes.table}>
         <thead style={{textAlign:"left"}}>
             <tr className={classes.tabletitle}>
                 <th >ID</th>
@@ -18,7 +20,9 @@ const User = () => {
             </tr>
         </thead>
 {posts ?  <BlogList /> : <tbody><tr><td >Ожидаем загрузку заявок...</td></tr></tbody>}
-    </table> );
+    </table> 
+    </div>
+    );
 }
 
 export default User;

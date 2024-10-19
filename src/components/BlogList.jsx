@@ -11,7 +11,6 @@ import {useContext } from 'react';
 
          <tbody id="tbody" className={classes.tbody}>
                 {posts.map((post) =>
-                    
                     <tr key={post.id} className={classes.lines}> 
                         <th scope="row" style={{textAlign:"left"}}>{post.id}</th>
                         <td>{post.date}</td>

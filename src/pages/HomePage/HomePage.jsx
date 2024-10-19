@@ -3,6 +3,8 @@ import classes from"./HomePage.module.scss";
 import Form from "@/src/module/HomePage/Form";
 import { useEffect, useState } from "react";
 import { UseHeightQuery } from "@/src/hooks/UseHeightQuery";
+
+
 const HomePage = () => {
     const height = UseHeightQuery();
     const [isClient, setisClient]= useState(false);

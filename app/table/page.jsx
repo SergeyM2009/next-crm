@@ -1,8 +1,9 @@
-'use client'
+// 'use client'  
 
 import TablePage from "@/src/pages/TablePage/TablePage";
 
-const Table = () => {
+const Table = async() => {
+	
 	return <TablePage/>
 	} 
 

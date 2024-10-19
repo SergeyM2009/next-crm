@@ -43,7 +43,6 @@ const RightPanel = () => {
 						</div>
 					</div>
 				<User />
-		
 			</div>
 		</div>
      );

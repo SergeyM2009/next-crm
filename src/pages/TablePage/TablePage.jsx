@@ -8,7 +8,6 @@ import LeftPanel from "@/src/module/TablePage/LeftPanel";
 import RightPanel from "@/src/module/TablePage/RightPanel";
 import { createContext } from 'react';
 
-
 const TablePage = () => {
 	const isMediaQuery = useMediaQuery("(max-width: 1300px)");
 	const height = UseHeightQuery();
@@ -91,14 +90,14 @@ useEffect (() => {
 		sethandleLeftPanel: sethandleLeftPanel
    }}>
 
-        {/* // левая панель */}
+      
 <div className={`${classes.total} ${isMediaQuery  && classes.total__small}`} style={{marginTop:height + 25}}>
 
 <LeftPanel ref={ref}/>
 {handleLeftPanel && <button onClick={() => panelControl()} className= {classes.filterbtn} style={{marginTop:height + 110}} >Фильтр</button>}
 
 		  {/* // Таблица  */}
-		<RightPanel />
+<RightPanel />
 		</div>
  </AppContext.Provider>	);
 	} 
