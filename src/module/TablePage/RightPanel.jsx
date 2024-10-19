@@ -15,7 +15,7 @@ const RightPanel = () => {
 	
     return ( 
         <div className={`${classes.main__wrapper}${blur&!handleLeftPanel ? ` ${classes.main__wrapper__blur}` : ''}`}>
-			<div className={classes.container__fluid}>
+			<div className={`${classes.container__fluid}${blur&!handleLeftPanel ? ` ${classes.table__hidden}` : ''}`}>
 				<div className={classes.admin__heading__1}>Список заявок</div>
 				{isMistake && isLoading && <p>Загрузка...</p>}
 				{!isMistake && isLoading && <p>Ошибка запроса на сервер</p>}
