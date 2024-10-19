@@ -304,11 +304,11 @@ display: block;
 	left: 0;
 	top: 0;
 	transform: rotate(270deg);
-	background: #094071;
+	background: #0940718f;
     padding: 4px 10px 9px 10px;
     color: white;
     font-size: 20px;
-    border-radius: 17px;
+    border-radius: 0 0 17px 17px;
 	transition: 100ms all ease-out;
 	 &:hover  {
 		background: #2865b1;
