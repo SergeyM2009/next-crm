@@ -88,6 +88,7 @@ useEffect (() => {
 		setBlur: setBlur,
 		handleLeftPanel: handleLeftPanel,
 		sethandleLeftPanel: sethandleLeftPanel
+		
    }}>
 
       
